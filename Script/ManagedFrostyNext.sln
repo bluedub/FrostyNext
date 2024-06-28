@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedFrostyNext", "ManagedFrostyNext.csproj", "{8D3262D9-7B3D-4AD3-AEE5-204D37E39893}"
+EndProject
+
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostyCli", "FrostyToolsuite\FrostyCli\FrostyCli.csproj", "{990663D6-619A-46C3-ADFA-68208FF24465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostySdk", "FrostyToolsuite\FrostySdk\FrostySdk.csproj", "{8A2EBD94-9430-4F02-9FEA-7EC0B182A10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostyModSupport", "FrostyToolsuite\FrostyModSupport\FrostyModSupport.csproj", "{FA870B91-F40B-4B94-9DAB-D8A12F772E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostySdkTest", "FrostyToolsuite\FrostySdkTest\FrostySdkTest.csproj", "{0D68BF68-5166-4995-BBAF-4D0257A9DB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostyEditor", "FrostyToolsuite\FrostyEditor\FrostyEditor.csproj", "{E9375102-4BDB-4E18-ABC2-9BDC0FBFA3D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrostyTypeSdkGenerator", "FrostyToolsuite\FrostyTypeSdkGenerator", "{0E902CC4-FFE0-4614-8C37-4256C3D3F13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostyTypeSdkGenerator", "FrostyToolsuite\FrostyTypeSdkGenerator\FrostyTypeSdkGenerator\FrostyTypeSdkGenerator.csproj", "{8679D294-9AA1-49A1-A769-AEFCF1C6CAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrostyTypeSdkGenerator.Example", "FrostyToolsuite\FrostyTypeSdkGenerator\FrostyTypeSdkGenerator.Example\FrostyTypeSdkGenerator.Example.csproj", "{447CC684-05A6-49FE-821D-A0BF0602614C}"
+EndProject
+
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D3262D9-7B3D-4AD3-AEE5-204D37E39893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3262D9-7B3D-4AD3-AEE5-204D37E39893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3262D9-7B3D-4AD3-AEE5-204D37E39893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3262D9-7B3D-4AD3-AEE5-204D37E39893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990663D6-619A-46C3-ADFA-68208FF24465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990663D6-619A-46C3-ADFA-68208FF24465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9375102-4BDB-4E18-ABC2-9BDC0FBFA3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9375102-4BDB-4E18-ABC2-9BDC0FBFA3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA870B91-F40B-4B94-9DAB-D8A12F772E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA870B91-F40B-4B94-9DAB-D8A12F772E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2EBD94-9430-4F02-9FEA-7EC0B182A10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2EBD94-9430-4F02-9FEA-7EC0B182A10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D68BF68-5166-4995-BBAF-4D0257A9DB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D68BF68-5166-4995-BBAF-4D0257A9DB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8679D294-9AA1-49A1-A769-AEFCF1C6CAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8679D294-9AA1-49A1-A769-AEFCF1C6CAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447CC684-05A6-49FE-821D-A0BF0602614C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447CC684-05A6-49FE-821D-A0BF0602614C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+    GlobalSection(NestedProjects) = preSolution
+        {8679D294-9AA1-49A1-A769-AEFCF1C6CAA9} = {0E902CC4-FFE0-4614-8C37-4256C3D3F13D}
+        {447CC684-05A6-49FE-821D-A0BF0602614C} = {0E902CC4-FFE0-4614-8C37-4256C3D3F13D}
+    EndGlobalSection
+EndGlobal
