@@ -1,0 +1,10 @@
+﻿using Mono.Cecil;
+using UnrealSharpWeaver.MetaData;
+
+namespace UnrealSharpWeaver.NativeTypes;
+
+class NativeDataStructType(TypeReference structType, string marshallerName, int arrayDim, PropertyType propertyType = PropertyType.Struct) 
+    : NativeDataSimpleType(structType, marshallerName, arrayDim, propertyType)
+{
+    public TypeReferenceMetadata InnerType { get; set; } = new(structType.Resolve());
+}

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "UnrealSharp": {
+      "commandName": "Executable",
+      "executablePath": "F:/Unreal/Builds/UE_5.4/Engine/Binaries\\Win64\\UnrealEditor.exe",
+      "commandLineArgs": "\"F:\\Unreal\\Projects\\FrostyNext\\FrostyNext.uproject\""
+    }
+  }
+}
