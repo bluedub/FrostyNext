@@ -10,7 +10,7 @@ using Object = UnrealSharp.CoreUObject.Object;
 namespace ManagedFrostyNext;
 
 [UClass]
-public partial class FUStartupAction : Object
+public class FUStartupAction : Object
 {
     FUStartupAction()
     {
@@ -101,6 +101,7 @@ public partial class FUStartupAction : Object
     private static Assembly CurrentDomain_AssemblyResolve(object sender, ResolveEventArgs args)
     {
         string dllname = args.Name.Contains(",") ? args.Name.Substring(0, args.Name.IndexOf(',')) : args.Name;
-        return null;
+        
+        return Assembly.LoadFile($"{AppContext.BaseDirectory}{dllname}.dll");
     }
 }
